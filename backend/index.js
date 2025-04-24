@@ -11,7 +11,6 @@ app.use(express.json())
 
 app.use("api/v1/user", userRouter)
 app.use("api/v1/spotify", spotifyRouter)
-
   
 
 app.listen(port, console.log("listening on port " + port))
